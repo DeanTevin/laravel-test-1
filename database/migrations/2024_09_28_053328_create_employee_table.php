@@ -15,6 +15,7 @@ return new class extends Migration
             $table->uuid('id');
             $table->string('name');
             $table->year('birth_year');
+            $table->string('address_line1');
             $table->timestamps();
             $table->softDeletes();
         });
